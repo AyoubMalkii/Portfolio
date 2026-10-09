@@ -1,0 +1,42 @@
+[
+  {
+    "title": "I-PROTECT v8 Senior",
+    "date": "March 2026",
+    "place": "Hammamet, Tunisia",
+    "role": "Attendee",
+    "description": "National cybersecurity workshop organized by the IEEE Tunisia Section with the National Agency of Cybersecurity, themed around intelligent offensive and defensive capabilities, with red-team and cyber-defense tracks and CTF challenges.",
+    "photos": []
+  },
+  {
+    "title": "Cloud-Native IDS Hackathon",
+    "date": "2026",
+    "place": "Tunisia",
+    "role": "Participant",
+    "description": "Hackathon challenge to build a lightweight, open-source security agent that reads cloud logs, detects suspicious behavior such as brute-force logins, and raises alerts: a mini Wazuh built from scratch.",
+    "photos": []
+  },
+  {
+    "title": "Crackout 2.0",
+    "date": "November 2025",
+    "place": "SMU campus, Tunis",
+    "role": "Participant",
+    "description": "Overnight hackathon organized by the IEEE Computer Society student chapter at South Mediterranean University.",
+    "photos": []
+  },
+  {
+    "title": "IEEEXtreme 19.0",
+    "date": "October 2025",
+    "place": "SMU campus, Tunis",
+    "role": "Participant",
+    "description": "IEEE's global 24-hour programming competition, taken from the SMU campus with the IEEE Student Branch SMU.",
+    "photos": []
+  },
+  {
+    "title": "Student Life events, SMU",
+    "date": "December 2025",
+    "place": "SMU campus, Tunis",
+    "role": "Organizer",
+    "description": "Planned and managed logistics for university community events as a member of the Student Life Department.",
+    "photos": []
+  }
+]

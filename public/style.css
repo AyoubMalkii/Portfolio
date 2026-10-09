@@ -133,11 +133,32 @@ h3 { font-size: 18px; margin: 0 0 4px; }
 .footer { border-top: 1px solid var(--line); padding: 28px 0; color: var(--muted); font-size: 14px; font-family: var(--mono); }
 .footer p { margin: 0; }
 
+/* Events */
+.section-intro { color: var(--muted); margin: -12px 0 24px; }
+.events { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.event { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
+.event-body { padding: 20px 22px; }
+.event-body p { margin: 0 0 8px; color: var(--muted); }
+.event-body h3 { color: var(--text); margin-bottom: 2px; }
+.event-place { font-size: 14px; }
+.event-photos { display: grid; gap: 2px; background: var(--line); }
+.event-photos.multi { grid-template-columns: repeat(2, 1fr); }
+.event-photos .photo { padding: 0; border: 0; background: none; cursor: zoom-in; display: block; aspect-ratio: 16 / 10; overflow: hidden; }
+.event-photos.multi .photo:first-child:nth-last-child(odd) { grid-column: 1 / -1; }
+.event-photos img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .25s; }
+.event-photos .photo:hover img { transform: scale(1.03); }
+
+.lightbox { max-width: min(1100px, 94vw); max-height: 92vh; padding: 0; border: 1px solid var(--line); border-radius: var(--radius); background: #070a0e; color: var(--text); }
+.lightbox::backdrop { background: rgba(0, 0, 0, .8); }
+.lightbox img { display: block; max-width: 100%; max-height: 80vh; margin: 0 auto; }
+.lightbox p { margin: 0; padding: 10px 16px; font-size: 14px; color: var(--muted); }
+.lightbox-close { position: absolute; top: 8px; right: 8px; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: rgba(11, 15, 20, .8); color: var(--text); font-size: 22px; line-height: 1; cursor: pointer; }
+
 /* Responsive */
 @media (max-width: 860px) {
   .hero { padding-top: 40px; }
   .hero-grid, .about-grid { grid-template-columns: 1fr; gap: 32px; }
-  .cards { grid-template-columns: 1fr; }
+  .cards, .events { grid-template-columns: 1fr; }
   .skills { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 640px) {
@@ -153,5 +174,5 @@ h3 { font-size: 18px; margin: 0 0 4px; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .cursor { animation: none; }
-  .btn, .card { transition: none; }
+  .btn, .card, .event-photos img { transition: none; }
 }
