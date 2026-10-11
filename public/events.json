@@ -1,5 +1,13 @@
 [
   {
+    "title": "SMU Research Days Conference 2026",
+    "date": "June 2026",
+    "place": "South Mediterranean University, Tunis",
+    "role": "Presenter",
+    "description": "Presented my paper “Adapting DarkBERT via Transfer Learning for Cyber Threat Classification on the Dark Web” at the 6th edition of the conference.",
+    "photos": []
+  },
+  {
     "title": "I-PROTECT v8 Senior",
     "date": "March 2026",
     "place": "Hammamet, Tunisia",
@@ -16,6 +24,14 @@
     "photos": []
   },
   {
+    "title": "Student Life events, SMU",
+    "date": "December 2025",
+    "place": "SMU campus, Tunis",
+    "role": "Organizer",
+    "description": "Planned and managed logistics for university community events as a member of the Student Life Department.",
+    "photos": []
+  },
+  {
     "title": "Crackout 2.0",
     "date": "November 2025",
     "place": "SMU campus, Tunis",
@@ -24,19 +40,51 @@
     "photos": []
   },
   {
+    "title": "Master Problem Solving Skill training",
+    "date": "November 2025",
+    "place": "SMU campus, Tunis",
+    "role": "Participant",
+    "description": "Part 2 of a problem-solving training session organized by GDG on Campus SMU.",
+    "photos": []
+  },
+  {
     "title": "IEEEXtreme 19.0",
     "date": "October 2025",
     "place": "SMU campus, Tunis",
     "role": "Participant",
-    "description": "IEEE's global 24-hour programming competition, taken from the SMU campus with the IEEE Student Branch SMU.",
+    "description": "IEEE's global 24-hour programming competition, taken from the SMU campus with the IEEE Student Branch SMU as team WorkSmartNotHard.",
     "photos": []
   },
   {
-    "title": "Student Life events, SMU",
-    "date": "December 2025",
+    "title": "“Grow Professionally” Bootcamp",
+    "date": "October 2025",
     "place": "SMU campus, Tunis",
-    "role": "Organizer",
-    "description": "Planned and managed logistics for university community events as a member of the Student Life Department.",
+    "role": "Participant",
+    "description": "Professional development bootcamp organized by the IEEE Industry Applications Society (IAS) SMU Student Branch Chapter.",
+    "photos": []
+  },
+  {
+    "title": "DevFest 2024 Carthage Hackathon",
+    "date": "2024",
+    "place": "Tunisia",
+    "role": "Participant",
+    "description": "Hackathon organized by GDG Carthage and GDG on Campus SMU, focused on responsible AI solutions for smart cities.",
+    "photos": []
+  },
+  {
+    "title": "IEEEXtreme 18.0",
+    "date": "October 2024",
+    "place": "SMU campus, Tunis",
+    "role": "Participant",
+    "description": "IEEE's global 24-hour programming competition with over 19,000 participants, as team WorkSmartNotHard.",
+    "photos": []
+  },
+  {
+    "title": "IEEE WIE SMU & GDSC SMU Hackathon",
+    "date": "February 2024",
+    "place": "SMU campus, Tunis",
+    "role": "Participant",
+    "description": "Hackathon organized by IEEE Women in Engineering SMU and the Google Developer Student Club SMU.",
     "photos": []
   }
 ]
