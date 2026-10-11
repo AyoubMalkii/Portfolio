@@ -1,6 +1,6 @@
 # Ayoub Malki — Portfolio
 
-Personal portfolio site: a static HTML/CSS page, hosted on Cloudflare Workers.
+Personal portfolio site: a static HTML/CSS page, hosted on Cloudflare Pages at https://portfolio-f4x.pages.dev.
 
 - `public/`: everything that gets published (the only folder Cloudflare serves)
 - `public/index.html`: the page
@@ -8,9 +8,8 @@ Personal portfolio site: a static HTML/CSS page, hosted on Cloudflare Workers.
 - `public/events.json`: the list of events shown in "Events & Activities"
 - `public/assets/`: CV, favicon and event photos (`assets/events/`)
 - `public/_headers`: security headers applied by Cloudflare
-- `wrangler.jsonc`: Cloudflare Workers config (serves `public/`, uses `404.html` for missing pages)
 
-No build step: Cloudflare deploys `public/` as static assets. Every push to `main` redeploys the site.
+No build step: Cloudflare Pages publishes the `public/` folder (build output directory `public`) and serves `404.html` for missing pages. Every push to `main` redeploys the site.
 
 To preview locally: `python -m http.server 8000 -d public`, then open http://localhost:8000.
 
